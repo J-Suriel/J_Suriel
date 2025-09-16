@@ -47,14 +47,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px; /* spacing between arrows and window */
+    gap: 15px; 
     max-width: 1200px;
     margin: 0 auto;
   }
   
   .carousel-window {
     overflow: hidden;
-    width: 1080px; /* visible area width */
+    width: 1080px; 
   }
   
   .carousel-track {
@@ -63,13 +63,13 @@ body {
   }
   
   .carousel-track img {
-    width: 200px; /* each image width */
+    width: 200px;
     flex-shrink: 0;
     margin: 0 5px;
     border-radius: 8px;
   }
   
-  /* Arrows outside */
+
   .prev,
   .next {
     cursor: pointer;
